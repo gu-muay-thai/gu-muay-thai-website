@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/gu-muay-thai-website/static/js/main.874872f0.js",
+    "main.js": "/gu-muay-thai-website/static/js/main.3ed3a434.js",
     "index.html": "/gu-muay-thai-website/index.html",
-    "main.874872f0.js.map": "/gu-muay-thai-website/static/js/main.874872f0.js.map"
+    "main.3ed3a434.js.map": "/gu-muay-thai-website/static/js/main.3ed3a434.js.map"
   },
   "entrypoints": [
-    "static/js/main.874872f0.js"
+    "static/js/main.3ed3a434.js"
   ]
 }
