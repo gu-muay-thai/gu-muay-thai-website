@@ -59,7 +59,7 @@ export const NavLinkExtended = styled(Link)`
 
 export const NavLogo = styled.img`
     margin: 10px;
-    max-width: auto;
+    max-width: 180px;
     height: auto;
 `;
 
