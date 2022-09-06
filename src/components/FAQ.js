@@ -2,15 +2,15 @@ import React from 'react'
 import NavigationBar from './NavigationBar'
 import { Heading, Notice } from './Styles'
 
-const Home = () => {
+const FAQ = () => {
     return (
         <>
             <NavigationBar />
-            <Heading>GU Muay Thai Website</Heading>
+            <Heading>FAQ</Heading>
 
             <Notice>WORK IN PROGRESS...</Notice>
         </>
     )
 }
 
-export default Home;
+export default FAQ;

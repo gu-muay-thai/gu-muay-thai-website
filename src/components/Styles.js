@@ -40,7 +40,7 @@ export const NavLinks = styled.div`
 export const NavLink = styled(Link)`
     color: white;
     font-size: x-large;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     text-decoration: none;
     margin: 10px;
 
@@ -52,14 +52,14 @@ export const NavLink = styled(Link)`
 export const NavLinkExtended = styled(Link)`
     color: white;
     font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Tahoma, sans-serif;
     text-decoration: none;
     margin: 10px;
 `;
 
 export const NavLogo = styled.img`
     margin: 10px;
-    max-width: 180px;
+    max-width: auto;
     height: auto;
 `;
 
@@ -88,6 +88,12 @@ export const NavExtended = styled.div`
 `;
 
 export const Heading = styled.h1`
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     text-align: center;
+`
+
+export const Notice = styled.h2`
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    color: red;
 `
