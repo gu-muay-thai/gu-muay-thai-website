@@ -59,8 +59,9 @@ export const NavLinkExtended = styled(Link)`
 
 export const NavLogo = styled.img`
     margin: 10px;
-    max-width: 180px;
-    height: auto;
+    max-width: 80px;
+    width: 60px;
+    height: 60px;
 `;
 
 export const ExpandNavLinks = styled.button`
