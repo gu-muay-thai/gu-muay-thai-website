@@ -26,7 +26,7 @@ const NavigationBar = () => {
                     <NavLogo src={logo} alt="GUMT's Thaiger Club Logo" />
                 </NavDecoration>
             </NavInner>
-            {(extendNavBar || window.screen.width <= 700) && (
+            {extendNavBar && (
                 <NavExtended>
                     <NavLinkExtended to="/gu-muay-thai-website">Home</NavLinkExtended>
                     <NavLinkExtended to="/gu-muay-thai-website/about">About</NavLinkExtended>
