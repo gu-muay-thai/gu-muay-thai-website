@@ -10,7 +10,6 @@ export const NavBar = styled.nav`
 
     @media (min-width: 700px) {
         height: 80px;
-        ${(props) => {props.extendNavBar = true}}
     }
 `;
 
