@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/gu-muay-thai-website/static/js/main.5f37bae4.js",
+    "main.js": "/gu-muay-thai-website/static/js/main.5b77f5de.js",
     "static/media/logo.png": "/gu-muay-thai-website/static/media/logo.d34ad3115f8430c562f9.png",
     "index.html": "/gu-muay-thai-website/index.html",
-    "main.5f37bae4.js.map": "/gu-muay-thai-website/static/js/main.5f37bae4.js.map"
+    "main.5b77f5de.js.map": "/gu-muay-thai-website/static/js/main.5b77f5de.js.map"
   },
   "entrypoints": [
-    "static/js/main.5f37bae4.js"
+    "static/js/main.5b77f5de.js"
   ]
 }
