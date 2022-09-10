@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { 
-    NavBar, NavInner, NavInfo, NavLinks, NavLink, ExpandNavLinks, NavDecoration, NavLogo, NavExtended, NavLinkExtended
+    NavBar, NavInner, NavInfo, NavLinks, NavLink, ExpandNavLinks, NavExtended, NavLinkExtended
 } from './Styles'
-import logo from '../data/logo.png'
 
 const NavigationBar = () => {
     const [extendNavBar, setExtendNavBar] = useState(false);
@@ -22,9 +21,6 @@ const NavigationBar = () => {
                         </ExpandNavLinks>
                     </NavLinks>
                 </NavInfo>
-                <NavDecoration>
-                    <NavLogo src={logo} alt="GUMT's Thaiger Club Logo" />
-                </NavDecoration>
             </NavInner>
             {extendNavBar && (
                 <NavExtended>

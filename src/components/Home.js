@@ -7,7 +7,6 @@ const Home = () => {
         <>
             <NavigationBar />
             <Heading>GU Muay Thai Website</Heading>
-
             <Notice>WORK IN PROGRESS...</Notice>
         </>
     )

@@ -1,10 +1,11 @@
+import { createGlobalStyle } from 'styled-components'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 export const NavBar = styled.nav`
     width: 100%;
     height: ${(props) => (props.extendNavBar ? "65vh" : "80px")};
-    background-color: black;
+    background-color: #FFC803;
     display: flex;
     flex-direction: column;
 
@@ -20,13 +21,6 @@ export const NavInfo = styled.div`
   padding-left: 5%;
 `;
 
-export const NavDecoration = styled.div`
-  flex: 30%;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 50px;
-`;
-
 export const NavInner = styled.div`
     width: 100%;
     height: 80px;
@@ -38,30 +32,32 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-    color: white;
+    color: black;
     font-size: x-large;
     font-family: Tahoma, sans-serif;
     text-decoration: none;
-    margin: 10px;
+    margin: 20px;
 
     @media (max-width: 700px) {
         display: none;
     }
+
+    &:hover {
+        font-weight: bold;
+    }
 `;
 
 export const NavLinkExtended = styled(Link)`
-    color: white;
+    color: black;
     font-size: x-large;
     font-family: Tahoma, sans-serif;
     text-decoration: none;
     margin: 10px;
-`;
+    display: block;
 
-export const NavLogo = styled.img`
-    margin: 10px;
-    max-width: 80px;
-    width: 60px;
-    height: 60px;
+    &:hover {
+        font-weight: bold;
+    }
 `;
 
 export const ExpandNavLinks = styled.button`
@@ -69,7 +65,7 @@ export const ExpandNavLinks = styled.button`
     height: 50px;
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 45px;
     cursor: pointer;
 
@@ -97,4 +93,11 @@ export const Notice = styled.h2`
     font-family: Tahoma, sans-serif;
     text-align: center;
     color: red;
+`
+
+export const Global = createGlobalStyle`
+    body {
+        background-color: black;
+        color: #FFC803;
+    }
 `
